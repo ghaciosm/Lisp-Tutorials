@@ -1,0 +1,7 @@
+(defun add-all(a b c d)
+    (+ a b c d)
+)
+(setq sum (add-all 10 20 30 40))
+(write sum)
+(terpri)
+(write (add-all 23.4 56.7 34.9 10.0))
